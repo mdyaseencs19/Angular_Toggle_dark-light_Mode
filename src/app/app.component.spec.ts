@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'toggle-dark-light-mode'`, () => {
+  it(`should have as title 'mat-theming'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('toggle-dark-light-mode');
+    expect(app.title).toEqual('mat-theming');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('toggle-dark-light-mode app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('mat-theming app is running!');
   });
 });

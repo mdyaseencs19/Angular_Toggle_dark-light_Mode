@@ -1,30 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    --text-color: #222;
-    --bkg-color: #fff;
-    --btn-txt-color: rgb(41, 17, 17);
-    --btn-bg-color: #00c3ff;
-}
-  
-body.dark-theme {
-    --text-color: #fff;
-    --bkg-color: #15161a;
-    --btn-txt-color: rgb(95, 4, 4);
-    --btn-bg-color: #00c3ff;
-}
-  
-body {
-    background: var(--bkg-color);
-}
-  
-h1, p {
-    color: var(--text-color);
-}
 
-button {
-    padding: 10px;
-    border: none;
-    border-radius: 2px;
-    color: var(--btn-txt-color);
-    background-color: var(--btn-bg-color);
-}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
