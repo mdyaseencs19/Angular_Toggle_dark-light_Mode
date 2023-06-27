@@ -41,3 +41,6 @@ $mat-theming-theme-dark: mat.define-dark-theme((
 // that you are using.
 @include mat.all-component-themes($mat-theming-theme);
 
+.dark-theme {
+  @include mat.all-component-themes($mat-theming-theme-dark);
+}
